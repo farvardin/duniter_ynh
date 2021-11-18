@@ -22,6 +22,7 @@ Be carefull when installing applications from the community list.
 ## Configurations
 - In order to compute blocks you will have to set your member credentials with `duniter wizard key` or from the webadmin.
 - The BMA API is accessible from `https://duniter.domain.tld/` if enabled.
+- Warning: in the case the Duniter webui tells you your network configuration is wrong and proposes to correct it, you shouldn't apply, otherwise it might break the configuration. You can manually restart it with ``duniter config --bma --ipv4 127.0.0.1 --port CHOSEN_PORT --remoteh YOUR_DOMAIN --remotep 443 --noupnp``
 
 ## Cesium
 Cesium is a wallet webapp. You can install it with:
