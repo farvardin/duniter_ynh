@@ -57,7 +57,7 @@ ram.runtime = "200M"
     admin.allowed = "admins"
     admin.additional_urls = ["/webmin"]
 
-    apis.url = "/bma"
+    apis.url = "/bma/"
     apis.show_tile = true
     apis.allowed = "visitors"
     apis.additional_urls = ["/ws2p"]
