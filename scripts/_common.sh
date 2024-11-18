@@ -22,7 +22,7 @@ CONFIGURE_DUNITER() {
         --ws2p-remote-path "/ws2p" --ws2p-noupnp
 
     # Add BMAS with path, remove auto-generated BMAS endpoint
-    run_duniter config --addep "BMAS $domain 443 /bma" --remep "BMAS $domain 443"
+    run_duniter config --addep "BMAS $domain 443 /bma/" --remep "BMAS $domain 443"
 }
 
 #=================================================
